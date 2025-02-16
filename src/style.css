@@ -23,31 +23,6 @@ button:focus {
 }
 
 /* --------- */
-/*  Preloader */
-/* --------- */
-#preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 999999;
-  background-color: #0c0513;
-  background-image: url(./Assets/pre.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-#preloader-none {
-  opacity: 0;
-}
-
-#no-scroll {
-  overflow: hidden;
-  height: 100vh;
-}
-
-/* --------- */
 /*Scrollbar   */
 /* --------- */
 
@@ -399,49 +374,6 @@ button:focus {
 }
 
 /* --------- */
-/* Footer */
-/* --------- */
-.footer {
-  background-color: rgb(10, 4, 22);
-  bottom: 0 !important;
-  padding-top: 10px !important;
-  padding-bottom: 8px !important ;
-}
-.footer-copywright {
-  text-align: center !important;
-}
-
-.footer-body {
-  z-index: 1;
-  text-align: center !important;
-}
-
-@media (max-width: 767px) {
-  .footer-copywright {
-    text-align: center !important;
-  }
-
-  .footer-body {
-    text-align: center !important;
-  }
-}
-
-.footer h3 {
-  font-size: 1em;
-  color: white !important;
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-}
-.footer-icons {
-  margin-top: 0.5em !important;
-  margin-bottom: 0.5em !important;
-  padding: 0 !important;
-}
-
-.blockquote-footer {
-  color: #a588c0 !important;
-}
-/* --------- */
 /* Projects */
 /* --------- */
 .project-section {
@@ -740,4 +672,144 @@ button:focus {
 }
 .fork-btn-inner::after {
   display: none !important;
+}
+.contact {
+  margin: 0 auto;
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-size: cover; 
+  min-height: 100vh;
+  width: 100vw; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.row {
+  margin: 20px 0; /* Reduced spacing */
+  padding: 0;
+}
+
+.home-about-social {
+  text-align: center;
+}
+
+.home-about-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Reduce space between icons */
+  padding: 0;
+  margin: 10px 0; /* Reduce spacing */
+}
+
+.home-about-social-links li {
+  list-style: none;
+}
+
+.h1d {
+  text-align: center;
+  margin-bottom: 5px; /* Reduce space below heading */
+}
+
+.tech-icons {
+    border: 1.7px solid rgba(200, 137, 230, .637);
+    border-radius: 5px;
+    box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137);
+    display: table;
+    font-size: 4.5em;
+    margin: 15px;
+    margin-top: 20px;
+    opacity: .93;
+    overflow: hidden;
+    padding: 10px;
+    text-align: center;
+    transition: all .4s ease 0s;
+    vertical-align: middle;
+    color: white;
+    align-items: center;
+}
+.tech-icons:hover {
+    box-shadow: 0 0 15px 5px rgba(112, 12, 134, 1);
+    transform: scale(1.05); 
+    opacity: 0.8; 
+}
+.fs-5 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+}
+.experience {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.experience h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+.Skil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.Dskil h2 {
+  color: white;
+  margin-top: 160px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.Dskil h2 span {
+  color: #700c86;
+}
+
+
+
+.tech-icons {
+  border: 1.7px solid rgba(200, 137, 230, .637);
+  border-radius: 5px;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, .137);
+  display: table;
+  font-size: 4.5em;
+  margin: 15px;
+  margin-top: 20px;
+  opacity: .93;
+  overflow: hidden;
+  padding: 10px;
+  text-align: center;
+  transition: all .4s ease 0s;
+  vertical-align: middle;
+  color: white;
+  align-items: center;
+}
+.tech-icons:hover {
+  box-shadow: 0 0 15px 5px rgba(112, 12, 134, 1);
+  transform: scale(1.05); 
+  opacity: 0.8; 
+}
+.fs-5 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0;
+}
+.experience {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.experience h2 {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.per p{
+  font-size: 1.2em !important;
 }
