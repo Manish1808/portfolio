@@ -14,6 +14,11 @@ import { FaGitAlt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { SiPowerbi } from "react-icons/si";
 import { FaFigma } from "react-icons/fa";
+import { SiTailwindcss } from "react-icons/si";
+import { FaGithub } from "react-icons/fa6";
+import { SiPostman } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { SiKotlin } from "react-icons/si";
 import C from "../../Assets/C image.png";
 export default function Skills() {
   return (
@@ -96,6 +101,26 @@ export default function Skills() {
           <div className="tech-icons col-md-2 col-4">
             <FaFigma />
             <p className="fs-5">Figma</p>
+          </div>
+          <div className="tech-icons col-md-2 col-4">
+            <SiTailwindcss />
+            <p className="fs-5">TailwindCss</p>
+          </div>
+          <div className="tech-icons col-md-2 col-4">
+            <FaGithub />
+            <p className="fs-5">GitHub</p>
+          </div>
+          <div className="tech-icons col-md-2 col-4">
+            <SiPostman />
+            <p className="fs-5">Postman</p>
+          </div>
+          <div className="tech-icons col-md-2 col-4">
+            <FaAws />
+            <p className="fs-5">Amazon Web Services</p>
+          </div>
+          <div className="tech-icons col-md-2 col-4">
+            <SiKotlin />
+            <p className="fs-5">Kotlin</p>
           </div>
         </div>
       </div>
