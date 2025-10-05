@@ -61,6 +61,16 @@ function Personal() {
           View
         </a>
       </p>
+      <p>
+        SmartInterviews SmartCoder Certificate.{" "}
+        <a
+          href="https://smartinterviews.in/certificate/c7cf40e5"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View
+        </a>
+      </p>
     </div>
   );
 }

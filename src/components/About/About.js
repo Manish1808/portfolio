@@ -4,6 +4,7 @@ import Particle from "../Particle";
 import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Personal from "./Personal";
+import Experience from "./Experience.js"
 function About() {
   return (
     <Container fluid className="about-section">
@@ -30,6 +31,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         <Personal/>
+        <Experience/>
         </Row>
       </Container>
     </Container>
